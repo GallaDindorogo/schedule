@@ -1,15 +1,12 @@
 import "./App.css";
+import Header from "./components/Header/Header";
 import Schedule from "./components/Schedule/Schedule";
-import Lesson from "./components/Lesson/Lesson";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Школьное расписание</p>
-        <Schedule />
-        {/* <Lesson /> */}
-      </header>
+      <Header />
+      <Schedule />
     </div>
   );
 }

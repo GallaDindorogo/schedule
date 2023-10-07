@@ -1,15 +1,70 @@
+import { zoomLinks } from "./zoomLinks";
+import { textbooks } from "./textbooks";
+import { classRooms } from "./classRooms";
+
 export const scheduleData = [
   {
     day: "Понеділок",
     lessons: [
-      "Урок 1",
-      "Урок 2",
-      "Урок 3",
-      "Урок 4",
-      "Урок 5",
+      [
+        {
+          numberLesson: 1,
+          subject: "Фізика",
+          zoomLink: zoomLinks.Фізика,
+          textLink: textbooks.Фізика,
+          classRoomLink: classRooms.Фізика,
+        },
+        {
+          numberLesson: 1,
+          subject: "Геометрія",
+          zoomLink: zoomLinks.Геометрія,
+          textLink: textbooks.Геометрія,
+          classRoomLink: classRooms.Геометрія,
+        },
+      ],
+      [
+        {
+          numberLesson: 2,
+          subject: "Геометрія",
+          zoomLink: zoomLinks.Геометрія,
+          textLink: textbooks.Геометрія,
+          classRoomLink: classRooms.Геометрія,
+        },
+        {
+          numberLesson: 2,
+          subject: "Фізика",
+          zoomLink: zoomLinks.Фізика,
+          textLink: textbooks.Фізика,
+          classRoomLink: classRooms.Фізика,
+        },
+      ],
+      {
+        numberLesson: 3,
+        subject: "Фізика",
+        zoomLink: zoomLinks.Фізика,
+        textLink: textbooks.Фізика,
+        classRoomLink: classRooms.Фізика,
+      },
+      {
+        numberLesson: 4,
+        subject: "Фізика",
+        zoomLink: zoomLinks.Фізика,
+        textLink: textbooks.Фізика,
+        classRoomLink: classRooms.Фізика,
+      },
+      {
+        numberLesson: 5,
+        subject: "Фізика",
+        zoomLink: zoomLinks.Фізика,
+        textLink: textbooks.Фізика,
+        classRoomLink: classRooms.Фізика,
+      },
       "Урок 6",
       "Урок 7",
       "Урок 8",
+      "Урок 9",
+      "Урок 10",
+      "Урок 11",
     ],
   },
   {
@@ -23,6 +78,9 @@ export const scheduleData = [
       "Урок 6",
       "Урок 7",
       "Урок 8",
+      "Урок 9",
+      "Урок 10",
+      "Урок 11",
     ],
   },
   {
@@ -36,6 +94,9 @@ export const scheduleData = [
       "Урок 6",
       "Урок 7",
       "Урок 8",
+      "Урок 9",
+      "Урок 10",
+      "Урок 11",
     ],
   },
   {
@@ -49,6 +110,9 @@ export const scheduleData = [
       "Урок 6",
       "Урок 7",
       "Урок 8",
+      "Урок 9",
+      "Урок 10",
+      "Урок 11",
     ],
   },
   {
@@ -62,19 +126,39 @@ export const scheduleData = [
       "Урок 6",
       "Урок 7",
       "Урок 8",
+      "Урок 9",
+      "Урок 10",
+      "Урок 11",
+    ],
+  },
+  {
+    day: "Субота",
+    lessons: [
+      "Урок 1",
+      "Урок 2",
+      "Урок 3",
+      "Урок 4",
+      "Урок 5",
+      "Урок 6",
+      "Урок 7",
+      "Урок 8",
+      "Урок 9",
+      "Урок 10",
+      "Урок 11",
     ],
   },
 ];
 
-export const lessonsTime = [
-  {
-    lesson1: "08:20 - 9:05",
-    lesson2: "09:15 - 10:00",
-    lesson3: "10:10 - 10:55",
-    lesson4: "11:05 - 11:50",
-    lesson5: "12:20 - 13:05",
-    lesson6: "13:15 - 14:00",
-    lesson7: "14:10 - 14:55",
-    lesson8: "15:05 - 15:50",
-  },
-];
+export const lessonsTime = {
+  lesson1: { start: "07:20", end: "08:05" },
+  lesson2: { start: "08:10", end: "08:55" },
+  lesson3: { start: "09:00", end: "09:45" },
+  lesson4: { start: "09:50", end: "10:35" },
+  lesson5: { start: "10:40", end: "11:25" },
+  lesson6: { start: "11:30", end: "12:15" },
+  lesson7: { start: "12:20", end: "13:05" },
+  lesson8: { start: "13:10", end: "13:55" },
+  lesson9: { start: "16:00", end: "16:45" },
+  lesson10: { start: "18:00", end: "18:45" },
+  lesson11: { start: "19:00", end: "19:45" },
+};
