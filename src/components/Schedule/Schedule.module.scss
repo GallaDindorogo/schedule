@@ -2,14 +2,30 @@
   display: flex;
   border: 1px solid #f3a610;
 }
-
+.lessonTitle {
+  width: 202px;
+  height: 170px;
+  border: 1px solid #ccc;
+  color: #0a0a4b;
+  font-weight: bold;
+  font-size: 16px;
+}
 .tbody {
-  border: 1px solid #f3a610;
+  border: 1px solid #ccc;
+  color: #0a0a4b;
+  font-weight: bold;
+  font-size: 16px;
+  writing-mode: vertical-lr; /* Вертикальне відображення зліва направо */
+  text-orientation: upright; /* Зберегти текст вертикально */
 }
 
 .lesson {
-  border: 1px solid #f3a610;
-  color: black;
+  height: 170px;
+  width: 202px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0a0a4b;
 }
 .activeLesson {
   background-color: #00ff00; /* Змініть цей колір на той, який вам потрібно */
@@ -20,20 +36,33 @@
   /* Стилізація контейнера для поділених уроків */
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .lessonGroup {
   /* Стилізація окремої частини поділеного уроку */
   flex: 1; /* Розподіл простору між частинами уроку */
+  height: 100%;
   display: flex;
   flex-direction: column;
+  gap: 5px;
   border: 1px solid #ccc; /* Рамка між частинами (за бажанням) */
   padding: 4px; /* Відступ для кращого вигляду */
-  color: #007bff; /* Задайте бажаний колір тексту */
+  color: #0a0a4b; /* Задайте бажаний колір тексту */
   font-weight: bold;
   font-size: 16px;
 }
 
+.lessonSingl {
+  flex: 1; /* Розподіл простору між частинами уроку */
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  padding: 4px; /* Відступ для кращого вигляду */
+  color: #0a0a4b; /* Задайте бажаний колір тексту */
+  font-weight: bold;
+  font-size: 16px;
+}
 /* global.css */
 a {
   text-decoration: none;
