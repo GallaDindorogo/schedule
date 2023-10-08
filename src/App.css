@@ -2,6 +2,29 @@
   min-width: 100vw;
   text-align: center;
 }
+
+/* Загальні стилі для контейнера */
+.container {
+  max-width: 100%; /* Максимальна ширина контейнера */
+  margin: 0 auto; /* Центрування контейнера на сторінці */
+  padding: 20px; /* Відступи від країв контейнера */
+  box-sizing: border-box; /* Врахувати padding і border в обчисленнях розміру */
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .productCard {
+    width: 448px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .productCard {
+    width: 288px;
+    height: 100%;
+    padding: 5px;
+  }
+}
 /* 
 .App-logo {
   height: 40vmin;
