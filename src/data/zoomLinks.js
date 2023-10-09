@@ -2,9 +2,9 @@ export const zoomLinks = {
   Фізика:
     "https://us04web.zoom.us/j/71160338554?pwd=cuRM5DuC4C5wbYVRs4U02ELBCngCLA.1",
   Геометрія:
-    "https://us04web.zoom.us/j/71160338554?pwd=cuRM5DuC4C5wbYVRs4U02ELBCngCLA.1",
+    "https://us04web.zoom.us/j/78388130486?pwd=cnTD7LvyaPHxKx7AmE7R7ox5kPetX3.1",
   Алгебра:
-    "https://us04web.zoom.us/j/71160338554?pwd=cuRM5DuC4C5wbYVRs4U02ELBCngCLA.1",
+    "https://us04web.zoom.us/j/78388130486?pwd=cnTD7LvyaPHxKx7AmE7R7ox5kPetX3.1",
   Література:
     "https://us04web.zoom.us/j/77586110056?pwd=E2pJOVQeQPUtJSJgPAHeRki5YzdBAg.1",
   Хімія:
@@ -35,5 +35,5 @@ export const zoomLinks = {
   Мистецтво:
     "https://us05web.zoom.us/j/83512290078?pwd=fclEKRAuLF7DiJgdi2sjWoW6FaUmV1.1",
   ТрудовеНавчання:
-    "https://us04web.zoom.us/j/71160338554?pwd=cuRM5DuC4C5wbYVRs4U02ELBCngCLA.1",
+    "https://us04web.zoom.us/j/78388130486?pwd=cnTD7LvyaPHxKx7AmE7R7ox5kPetX3.1",
 };
