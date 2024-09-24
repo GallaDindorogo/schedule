@@ -10,9 +10,9 @@ export const zoomLinks = {
   Хімія:
     "https://us04web.zoom.us/j/8717700620?pwd=eUxIcW1rZjRXZ21va0ZVQnlWVzFpUT09 ",
   Географія:
-    "https://us04web.zoom.us/j/75463486414?pwd=77bNt9iuKZ7FEF5RnDqBd6ZJW6itlK.1",
+    "https://us04web.zoom.us/j/73848253563?pwd=V1FIMTRyN2NBVGNhTHRabFhHaWxMQT09",
   УкраїнськаMова:
-    "https://us05web.zoom.us/j/8525252562?pwd=UytGVTVLV2RFWnh6bGU4RTFGU1FUdz09",
+    "https://us05web.zoom.us/j/8525252562?pwd=UytGVTVLV2RFWnh6bGU4RTFGU1FUdz09&omn=85397613961",
   УкраїнськаЛітература:
     "https://us05web.zoom.us/j/8525252562?pwd=UytGVTVLV2RFWnh6bGU4RTFGU1FUdz09",
   ІсторіяУкраїни:
@@ -22,6 +22,9 @@ export const zoomLinks = {
 
   Харківщинознавство:
     "https://us05web.zoom.us/j/9757552189?pwd=dzZqenBRK3Q1QUVvUTgzbTlqN0dMUT09",
+  Правознавство:
+    "https://us05web.zoom.us/j/9757552189?pwd=dzZqenBRK3Q1QUVvUTgzbTlqN0dMUT09",
+
   Біологія:
     "https://us05web.zoom.us/j/5282604925?pwd=OEViMkxNTTRLb3p4MnpUN0NKck5HZz09",
   ОсновиЗдоровя:

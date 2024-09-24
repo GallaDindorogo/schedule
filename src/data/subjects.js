@@ -119,6 +119,12 @@ const subjects = [
     classRoomLink: classRooms.name,
   },
   {
+    name: "Правознавство",
+    zoomLink: zoomLinks.name,
+    textLink: textbooks.name,
+    classRoomLink: classRooms.name,
+  },
+  {
     name: "",
     zoomLink: zoomLinks.name,
     textLink: textbooks.name,

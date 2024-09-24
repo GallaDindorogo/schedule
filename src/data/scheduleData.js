@@ -11,19 +11,19 @@ export const scheduleData = [
     lessons: [
       {
         numberLesson: 1,
-        subjects: [subjectMap["Фізика"], subjectMap["Геометрія"]],
+        subject: subjectMap["ВсесвітняІсторія"],
       },
       {
         numberLesson: 2,
-        subjects: [subjectMap["Геометрія"], subjectMap["Фізика"]],
+        subject: subjectMap["УкраїнськаMова"],
       },
       {
         numberLesson: 3,
-        subject: subjectMap["Література"],
+        subject: subjectMap["Біологія"],
       },
       {
         numberLesson: 4,
-        subject: subjectMap["ІсторіяУкраїни"],
+        subject: subjectMap["Інформатика"],
       },
       {
         numberLesson: 5,
@@ -35,7 +35,7 @@ export const scheduleData = [
       },
       {
         numberLesson: 7,
-        subject: subjectMap["УкраїнськаMова"],
+        subject: subjectMap["Фізика"],
       },
       {
         numberLesson: 8,
@@ -64,31 +64,31 @@ export const scheduleData = [
       },
       {
         numberLesson: 2,
-        subject: subjectMap["УкраїнськаЛітература"],
+        subject: subjectMap["English"],
       },
       {
         numberLesson: 3,
-        subject: subjectMap["Алгебра"],
+        subject: subjectMap["Фізкультура"],
       },
 
       {
-        numberLesson: 4,
+        numberLesson: 2,
+        subject: subjectMap["УкраїнськаЛітература"],
+      },
+      {
+        numberLesson: 5,
+        subject: subjectMap["Геометрія"],
+      },
+      {
+        numberLesson: 5,
+        subject: subjectMap["Алгебра"],
+      },
+      {
+        numberLesson: 7,
         subjects: [
           subjectMap["ІсторіяУкраїни"],
           subjectMap["Харківщинознавство"],
         ],
-      },
-      {
-        numberLesson: 5,
-        subject: subjectMap["Інформатика"],
-      },
-      {
-        numberLesson: 6,
-        subjects: [subjectMap["Біологія"], subjectMap["ОсновиЗдоровя"]],
-      },
-      {
-        numberLesson: 7,
-        subject: subjectMap[""],
       },
       {
         numberLesson: 8,
@@ -104,7 +104,7 @@ export const scheduleData = [
       },
       {
         numberLesson: 11,
-        subject: subjectMap[""],
+        subject: subjectMap["Фізика"],
       },
     ],
   },
@@ -117,27 +117,27 @@ export const scheduleData = [
       },
       {
         numberLesson: 2,
-        subject: subjectMap["English"],
+        subject: subjectMap["Хімія"],
       },
       {
         numberLesson: 3,
-        subject: subjectMap["Геометрія"],
+        subject: subjectMap["Фізкультура"],
       },
       {
         numberLesson: 4,
-        subject: subjectMap["УкраїнськаMова"],
+        subject: subjectMap["Інформатика"],
       },
       {
         numberLesson: 5,
-        subject: subjectMap["Географія"],
-      },
-      {
-        numberLesson: 6,
         subject: subjectMap["Література"],
       },
       {
+        numberLesson: 6,
+        subject: subjectMap["ІсторіяУкраїни"],
+      },
+      {
         numberLesson: 7,
-        subject: subjectMap["Інформатика"],
+        subject: subjectMap["Геометрія"],
       },
       {
         numberLesson: 8,
@@ -162,31 +162,31 @@ export const scheduleData = [
     lessons: [
       {
         numberLesson: 1,
-        subject: subjectMap["Хімія"],
+        subjects: [subjectMap["ТрудовеНавчання"], subjectMap["Мистецтво"]],
       },
       {
         numberLesson: 2,
-        subject: subjectMap["Біологія"],
+        subject: subjectMap["Географія"],
       },
       {
         numberLesson: 3,
-        subject: subjectMap["Алгебра"],
+        subject: subjectMap["УкраїнськаMова"],
       },
       {
         numberLesson: 4,
-        subject: subjectMap["УкраїнськаЛітература"],
+        subject: subjectMap["Алгебра"],
       },
       {
         numberLesson: 5,
-        subject: subjectMap["Фізкультура"],
+        subject: subjectMap["Геометрія"],
       },
       {
         numberLesson: 6,
-        subjects: [subjectMap["Географія"], subjectMap["Мистецтво"]],
+        subject: subjectMap["Фізика"],
       },
       {
         numberLesson: 7,
-        subject: subjectMap["ТрудовеНавчання"],
+        subject: subjectMap[""],
       },
       {
         numberLesson: 8,
@@ -202,7 +202,7 @@ export const scheduleData = [
       },
       {
         numberLesson: 11,
-        subject: subjectMap[""],
+        subject: subjectMap["Алгебра"],
       },
     ],
   },
@@ -211,31 +211,31 @@ export const scheduleData = [
     lessons: [
       {
         numberLesson: 1,
-        subject: subjectMap["English"],
-      },
-      {
-        numberLesson: 2,
-        subject: subjectMap["ВсесвітняІсторія"],
-      },
-      {
-        numberLesson: 3,
-        subjects: [subjectMap["Фізика"], subjectMap["Алгебра"]],
-      },
-      {
-        numberLesson: 4,
-        subjects: [subjectMap["Алгебра"], subjectMap["Фізика"]],
-      },
-      {
-        numberLesson: 5,
         subject: subjectMap["Фізкультура"],
       },
       {
+        numberLesson: 2,
+        subject: subjectMap["English"],
+      },
+      {
+        numberLesson: 3,
+        subject: subjectMap["Література"],
+      },
+      {
+        numberLesson: 4,
+        subject: subjectMap["УкраїнськаЛітература"],
+      },
+      {
+        numberLesson: 5,
+        subject: subjectMap["Правознавство"],
+      },
+      {
         numberLesson: 6,
-        subject: subjectMap["Геометрія"],
+        subject: subjectMap["Алгебра"],
       },
       {
         numberLesson: 7,
-        subject: subjectMap[""],
+        subjects: [subjectMap["Біологія"], subjectMap["ОсновиЗдоровя"]],
       },
       {
         numberLesson: 8,
@@ -274,15 +274,15 @@ export const scheduleData = [
 ];
 
 export const lessonsTime = {
-  lesson1: { start: "07:20", end: "08:05" },
+  lesson1: { start: "07:15", end: "08:00" },
   lesson2: { start: "08:10", end: "08:55" },
-  lesson3: { start: "09:00", end: "09:45" },
-  lesson4: { start: "09:50", end: "10:35" },
-  lesson5: { start: "10:40", end: "11:25" },
-  lesson6: { start: "11:30", end: "12:15" },
-  lesson7: { start: "12:20", end: "13:05" },
-  lesson8: { start: "13:10", end: "13:55" },
+  lesson3: { start: "09:05", end: "09:50" },
+  lesson4: { start: "10:00", end: "10:45" },
+  lesson5: { start: "11:15", end: "12:00" },
+  lesson6: { start: "12:10", end: "12:55" },
+  lesson7: { start: "13:05", end: "13:50" },
+  lesson8: { start: "14:00", end: "14:45" },
   lesson9: { start: "16:00", end: "16:45" },
-  lesson10: { start: "18:00", end: "18:45" },
-  lesson11: { start: "19:00", end: "19:45" },
+  lesson10: { start: "187:00", end: "17:45" },
+  lesson11: { start: "18:00", end: "18:45" },
 };

@@ -10,6 +10,7 @@ export const classRooms = {
   ІсторіяУкраїни: "https://classroom.google.com/c/NjIwODI5NTA0MDM3?cjc=ksuoh6b",
   ВсесвітняІсторія: "https://classroom.google.com/c/NjIwODMwOTg1NTQx",
   Харківщинознавство: "https://classroom.google.com/c/NjIwODMwNzc0NDEz",
+  Правознавство: "https://classroom.google.com/c/NzEwMDcyNDc5OTU0?cjc=6265bfp",
   Біологія: "https://classroom.google.com/c/NTg0MzA3MzkyOTA2",
   ОсновиЗдоровя: "https://classroom.google.com/c/NTg0MzA3MzkyOTA2",
   Інформатика: "https://classroom.google.com/c/NjIxMDczNjA2MTM3",
